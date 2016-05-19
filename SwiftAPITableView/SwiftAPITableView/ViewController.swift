@@ -92,7 +92,6 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
         
         let request = NSMutableURLRequest(URL: url)
         request.HTTPMethod = "GET"
-       // request.cachePolicy = NSURLRequestCachePolicy.ReloadIgnoringCacheData
         
         
         let task = session.dataTaskWithRequest(request) {
@@ -142,7 +141,7 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
             }
             catch
             {
-                print("woopes")
+                print("woops")
             }
             
             do_table_refresh()
