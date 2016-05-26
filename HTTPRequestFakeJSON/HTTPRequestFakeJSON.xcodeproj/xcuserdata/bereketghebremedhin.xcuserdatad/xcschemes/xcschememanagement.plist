@@ -4,7 +4,7 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>SwiftAPITableView.xcscheme</key>
+		<key>HTTPRequestFakeJSON.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
@@ -12,17 +12,17 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>E3879BD61CEDAA6E002A9A85</key>
+		<key>E3B36DF21CF7A139005570EE</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>E3879BED1CEDAA6E002A9A85</key>
+		<key>E3B36E061CF7A139005570EE</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>E3879BF81CEDAA6E002A9A85</key>
+		<key>E3B36E111CF7A139005570EE</key>
 		<dict>
 			<key>primary</key>
 			<true/>

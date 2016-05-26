@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "E3879BD61CEDAA6E002A9A85"
-               BuildableName = "SwiftAPITableView.app"
-               BlueprintName = "SwiftAPITableView"
-               ReferencedContainer = "container:SwiftAPITableView.xcodeproj">
+               BlueprintIdentifier = "E3B36DF21CF7A139005570EE"
+               BuildableName = "HTTPRequestFakeJSON.app"
+               BlueprintName = "HTTPRequestFakeJSON"
+               ReferencedContainer = "container:HTTPRequestFakeJSON.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -32,30 +32,30 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "E3879BED1CEDAA6E002A9A85"
-               BuildableName = "SwiftAPITableViewTests.xctest"
-               BlueprintName = "SwiftAPITableViewTests"
-               ReferencedContainer = "container:SwiftAPITableView.xcodeproj">
+               BlueprintIdentifier = "E3B36E061CF7A139005570EE"
+               BuildableName = "HTTPRequestFakeJSONTests.xctest"
+               BlueprintName = "HTTPRequestFakeJSONTests"
+               ReferencedContainer = "container:HTTPRequestFakeJSON.xcodeproj">
             </BuildableReference>
          </TestableReference>
          <TestableReference
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "E3879BF81CEDAA6E002A9A85"
-               BuildableName = "SwiftAPITableViewUITests.xctest"
-               BlueprintName = "SwiftAPITableViewUITests"
-               ReferencedContainer = "container:SwiftAPITableView.xcodeproj">
+               BlueprintIdentifier = "E3B36E111CF7A139005570EE"
+               BuildableName = "HTTPRequestFakeJSONUITests.xctest"
+               BlueprintName = "HTTPRequestFakeJSONUITests"
+               ReferencedContainer = "container:HTTPRequestFakeJSON.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "E3879BD61CEDAA6E002A9A85"
-            BuildableName = "SwiftAPITableView.app"
-            BlueprintName = "SwiftAPITableView"
-            ReferencedContainer = "container:SwiftAPITableView.xcodeproj">
+            BlueprintIdentifier = "E3B36DF21CF7A139005570EE"
+            BuildableName = "HTTPRequestFakeJSON.app"
+            BlueprintName = "HTTPRequestFakeJSON"
+            ReferencedContainer = "container:HTTPRequestFakeJSON.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -75,10 +75,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "E3879BD61CEDAA6E002A9A85"
-            BuildableName = "SwiftAPITableView.app"
-            BlueprintName = "SwiftAPITableView"
-            ReferencedContainer = "container:SwiftAPITableView.xcodeproj">
+            BlueprintIdentifier = "E3B36DF21CF7A139005570EE"
+            BuildableName = "HTTPRequestFakeJSON.app"
+            BlueprintName = "HTTPRequestFakeJSON"
+            ReferencedContainer = "container:HTTPRequestFakeJSON.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -94,10 +94,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "E3879BD61CEDAA6E002A9A85"
-            BuildableName = "SwiftAPITableView.app"
-            BlueprintName = "SwiftAPITableView"
-            ReferencedContainer = "container:SwiftAPITableView.xcodeproj">
+            BlueprintIdentifier = "E3B36DF21CF7A139005570EE"
+            BuildableName = "HTTPRequestFakeJSON.app"
+            BlueprintName = "HTTPRequestFakeJSON"
+            ReferencedContainer = "container:HTTPRequestFakeJSON.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

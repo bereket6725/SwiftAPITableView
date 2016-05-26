@@ -1,15 +1,15 @@
 //
-//  SwiftAPITableViewTests.swift
-//  SwiftAPITableViewTests
+//  HTTPRequestFakeJSONTests.swift
+//  HTTPRequestFakeJSONTests
 //
-//  Created by Bereket Ghebremedhin on 5/19/16.
+//  Created by Bereket Ghebremedhin on 5/26/16.
 //  Copyright © 2016 Bereket Ghebremedhin. All rights reserved.
 //
 
 import XCTest
-@testable import SwiftAPITableView
+@testable import HTTPRequestFakeJSON
 
-class SwiftAPITableViewTests: XCTestCase {
+class HTTPRequestFakeJSONTests: XCTestCase {
     
     override func setUp() {
         super.setUp()
