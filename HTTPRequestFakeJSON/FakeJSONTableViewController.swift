@@ -12,7 +12,7 @@ class FakeJSONTableViewController: UITableViewController {
 
     
     var urlString: String = "http://jsonplaceholder.typicode.com/posts"
-    
+    var bodyArray:[String] = []
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -40,22 +40,31 @@ class FakeJSONTableViewController: UITableViewController {
             }
             
             let responseString = NSString(data: data! , encoding: NSUTF8StringEncoding)
+            self.convertJSONintoDict(data!)
+
             
-            print("responseString = \(responseString)")
-            
+           // print("responseString = \(responseString)")
+
          
-            do{
-                if let convertedJSONintoDict = try NSJSONSerialization.JSONObjectWithData(data!, options: []) as? NSDictionary{
-                    
-                    print(convertedJSONintoDict)
-                }
-            }
-            catch let error as NSError{
-                print(error.localizedDescription)
-            }
-            }
-        task.resume()
-        
+//            do {
+//                if let convertedJsonIntoDict = try NSJSONSerialization.JSONObjectWithData(data!, options: []) as? NSDictionary {
+//                    
+//                    // Print out dictionary
+//                    print(convertedJsonIntoDict)
+////                    
+////                    let firstNameValue = convertedJsonIntoDict["userName"] as? String
+////                    print(firstNameValue!)
+//                    
+//                }
+//            } catch let error as NSError {
+//                print(error.localizedDescription)
+//            }
+           }
+//        
+       task.resume()
+            
+            
+//        
     }
 
     override func didReceiveMemoryWarning() {
@@ -63,27 +72,49 @@ class FakeJSONTableViewController: UITableViewController {
         // Dispose of any resources that can be recreated.
     }
 
+
+    func convertJSONintoDict(data: NSData){
+        
+        do {
+        if let convertedJsonIntoArr = try NSJSONSerialization.JSONObjectWithData(data, options: []) as? NSArray {
+            
+            for dict in convertedJsonIntoArr {
+                
+                self.bodyArray.append(dict["body"] as! String)
+                //self.bodyArray.append(convertedJsonIntoDict["body"] as! String)
+                self.tableView.reloadData()
+            }
+            print(self.bodyArray)
+            
+        }
+        
+    } catch let error as NSError{
+        print(error.localizedDescription)
+        }
+    }
+    
+    
     // MARK: - Table view data source
 
     override func numberOfSectionsInTableView(tableView: UITableView) -> Int {
         // #warning Incomplete implementation, return the number of sections
-        return 0
+        return 1
     }
 
     override func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         // #warning Incomplete implementation, return the number of rows
-        return 0
+        return self.bodyArray.count 
     }
 
-    /*
+    
     override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCellWithIdentifier("reuseIdentifier", forIndexPath: indexPath)
-
-        // Configure the cell...
-
+        
+        let cell = tableView.dequeueReusableCellWithIdentifier("cell", forIndexPath: indexPath)
+        cell.textLabel!.text = self.bodyArray[indexPath.row]
+        
         return cell
     }
-    */
+    
 
     /*
     // Override to support conditional editing of the table view.
