@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		E306A06B1CF93E6800B93CED /* DetailImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E306A06A1CF93E6800B93CED /* DetailImageViewController.swift */; };
+		E306A06D1CF9401300B93CED /* HTTPRequestFakeJSONTests.xctest in Resources */ = {isa = PBXBuildFile; fileRef = E3B36E071CF7A139005570EE /* HTTPRequestFakeJSONTests.xctest */; };
 		E34902781CF8DBED00695878 /* PhotoObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = E34902771CF8DBED00695878 /* PhotoObject.swift */; };
 		E34902791CF8DF5B00695878 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E3B36E181CF7A139005570EE /* Info.plist */; };
 		E3B36DF71CF7A139005570EE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3B36DF61CF7A139005570EE /* AppDelegate.swift */; };
@@ -16,7 +17,6 @@
 		E3B36E011CF7A139005570EE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E3B36DFF1CF7A139005570EE /* LaunchScreen.storyboard */; };
 		E3B36E0C1CF7A139005570EE /* HTTPRequestFakeJSONTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3B36E0B1CF7A139005570EE /* HTTPRequestFakeJSONTests.swift */; };
 		E3B36E171CF7A139005570EE /* HTTPRequestFakeJSONUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3B36E161CF7A139005570EE /* HTTPRequestFakeJSONUITests.swift */; };
-		E3B36E251CF7A1C8005570EE /* FakeJSONTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3B36E241CF7A1C8005570EE /* FakeJSONTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -237,6 +237,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E3B36E011CF7A139005570EE /* LaunchScreen.storyboard in Resources */,
+				E306A06D1CF9401300B93CED /* HTTPRequestFakeJSONTests.xctest in Resources */,
 				E3B36DFE1CF7A139005570EE /* Assets.xcassets in Resources */,
 				E3B36DFC1CF7A139005570EE /* Main.storyboard in Resources */,
 			);
@@ -264,7 +265,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E3B36E251CF7A1C8005570EE /* FakeJSONTableViewController.swift in Sources */,
 				E3B36DF71CF7A139005570EE /* AppDelegate.swift in Sources */,
 				E34902781CF8DBED00695878 /* PhotoObject.swift in Sources */,
 				E306A06B1CF93E6800B93CED /* DetailImageViewController.swift in Sources */,
