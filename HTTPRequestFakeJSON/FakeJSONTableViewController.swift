@@ -7,13 +7,17 @@
 //
 
 import UIKit
+import DetailImageViewController
+
+
+
 
 class FakeJSONTableViewController: UITableViewController {
 
-    
-    var urlString: String = "http://jsonplaceholder.typicode.com/posts"
+    var urlString: String = "http://jsonplaceholder.typicode.com/photos"
     var bodyArray:[String] = []
     
+
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -39,7 +43,7 @@ class FakeJSONTableViewController: UITableViewController {
                 return
             }
             
-            let responseString = NSString(data: data! , encoding: NSUTF8StringEncoding)
+           // let responseString = NSString(data: data! , encoding: NSUTF8StringEncoding)
             self.convertJSONintoDict(data!)
 
             
@@ -79,8 +83,7 @@ class FakeJSONTableViewController: UITableViewController {
         if let convertedJsonIntoArr = try NSJSONSerialization.JSONObjectWithData(data, options: []) as? NSArray {
             
             for dict in convertedJsonIntoArr {
-                
-                self.bodyArray.append(dict["body"] as! String)
+                self.bodyArray.append(dict["thumbnailUrl"] as! String)
                 //self.bodyArray.append(convertedJsonIntoDict["body"] as! String)
                 self.tableView.reloadData()
             }
@@ -108,10 +111,16 @@ class FakeJSONTableViewController: UITableViewController {
 
     
     override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
-        
+        //NSData* imgData =
         let cell = tableView.dequeueReusableCellWithIdentifier("cell", forIndexPath: indexPath)
-        cell.textLabel!.text = self.bodyArray[indexPath.row]
+        //let URL = NSURL(string: self.imageLinkArray[indexPath.row])
+        let imageURL = NSURL(string: self.bodyArray[indexPath.row])
         
+        let image = UIImage(data: NSData(contentsOfURL:imageURL!)!)
+       
+        cell.imageView?.image = image 
+        cell.textLabel!.text = self.bodyArray[indexPath.row]
+    
         return cell
     }
     
@@ -151,14 +160,13 @@ class FakeJSONTableViewController: UITableViewController {
     }
     */
 
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
+     In a storyboard-based application, you will often want to do a little preparation before navigation
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
+        
+        
+        
+        
     }
-    */
+
 
 }

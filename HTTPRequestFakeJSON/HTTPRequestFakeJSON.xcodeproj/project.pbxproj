@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E306A06B1CF93E6800B93CED /* DetailImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E306A06A1CF93E6800B93CED /* DetailImageViewController.swift */; };
+		E34902781CF8DBED00695878 /* PhotoObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = E34902771CF8DBED00695878 /* PhotoObject.swift */; };
+		E34902791CF8DF5B00695878 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E3B36E181CF7A139005570EE /* Info.plist */; };
 		E3B36DF71CF7A139005570EE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3B36DF61CF7A139005570EE /* AppDelegate.swift */; };
 		E3B36DFC1CF7A139005570EE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E3B36DFA1CF7A139005570EE /* Main.storyboard */; };
 		E3B36DFE1CF7A139005570EE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E3B36DFD1CF7A139005570EE /* Assets.xcassets */; };
@@ -34,6 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E306A06A1CF93E6800B93CED /* DetailImageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailImageViewController.swift; sourceTree = "<group>"; };
+		E34902771CF8DBED00695878 /* PhotoObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoObject.swift; sourceTree = "<group>"; };
 		E3B36DF31CF7A139005570EE /* HTTPRequestFakeJSON.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HTTPRequestFakeJSON.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E3B36DF61CF7A139005570EE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E3B36DFB1CF7A139005570EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -99,7 +104,9 @@
 			children = (
 				E3B36DF61CF7A139005570EE /* AppDelegate.swift */,
 				E3B36DFA1CF7A139005570EE /* Main.storyboard */,
+				E34902771CF8DBED00695878 /* PhotoObject.swift */,
 				E3B36E241CF7A1C8005570EE /* FakeJSONTableViewController.swift */,
+				E306A06A1CF93E6800B93CED /* DetailImageViewController.swift */,
 				E3B36DFD1CF7A139005570EE /* Assets.xcassets */,
 				E3B36DFF1CF7A139005570EE /* LaunchScreen.storyboard */,
 				E3B36E021CF7A139005570EE /* Info.plist */,
@@ -246,6 +253,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E34902791CF8DF5B00695878 /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,6 +266,8 @@
 			files = (
 				E3B36E251CF7A1C8005570EE /* FakeJSONTableViewController.swift in Sources */,
 				E3B36DF71CF7A139005570EE /* AppDelegate.swift in Sources */,
+				E34902781CF8DBED00695878 /* PhotoObject.swift in Sources */,
+				E306A06B1CF93E6800B93CED /* DetailImageViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -484,6 +494,7 @@
 				E3B36E1D1CF7A139005570EE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E3B36E1E1CF7A139005570EE /* Build configuration list for PBXNativeTarget "HTTPRequestFakeJSONTests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +503,7 @@
 				E3B36E201CF7A139005570EE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E3B36E211CF7A139005570EE /* Build configuration list for PBXNativeTarget "HTTPRequestFakeJSONUITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +512,7 @@
 				E3B36E231CF7A139005570EE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

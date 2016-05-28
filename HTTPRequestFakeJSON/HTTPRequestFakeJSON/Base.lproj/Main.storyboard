@@ -21,6 +21,9 @@
                                     <rect key="frame" x="0.0" y="0.0" width="600" height="43.5"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                 </tableViewCellContentView>
+                                <connections>
+                                    <segue destination="ZHO-Tp-nlA" kind="show" id="FRH-KK-AsI"/>
+                                </connections>
                             </tableViewCell>
                         </prototypes>
                         <connections>
@@ -33,6 +36,48 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="o6l-84-qjD" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="775" y="460"/>
+        </scene>
+        <!--Detail Image View Controller-->
+        <scene sceneID="ufA-Z1-Idd">
+            <objects>
+                <viewController id="ZHO-Tp-nlA" customClass="DetailImageViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="9m7-sn-RpO"/>
+                        <viewControllerLayoutGuide type="bottom" id="lgi-uU-sqv"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="l5V-Zd-Cq2">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="HTb-XC-dpp">
+                                <rect key="frame" x="153" y="152" width="294" height="296"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="294" id="WWl-Ig-1Xg"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="HTb-XC-dpp" firstAttribute="centerX" secondItem="l5V-Zd-Cq2" secondAttribute="centerX" id="A9K-Tr-5vJ"/>
+                            <constraint firstItem="HTb-XC-dpp" firstAttribute="centerY" secondItem="l5V-Zd-Cq2" secondAttribute="centerY" id="LjJ-Dv-kG7"/>
+                            <constraint firstItem="HTb-XC-dpp" firstAttribute="centerY" secondItem="l5V-Zd-Cq2" secondAttribute="centerY" id="geP-a5-wyg"/>
+                            <constraint firstItem="HTb-XC-dpp" firstAttribute="centerX" secondItem="l5V-Zd-Cq2" secondAttribute="centerX" id="kl2-cn-eYn"/>
+                            <constraint firstItem="HTb-XC-dpp" firstAttribute="top" secondItem="9m7-sn-RpO" secondAttribute="bottom" constant="132" id="l7w-uj-Cep"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="geP-a5-wyg"/>
+                                <exclude reference="kl2-cn-eYn"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <connections>
+                        <outlet property="detailImage" destination="HTb-XC-dpp" id="uic-z9-bB3"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="fqy-OH-6Wo" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1542" y="452"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="yBh-D1-yzu">
