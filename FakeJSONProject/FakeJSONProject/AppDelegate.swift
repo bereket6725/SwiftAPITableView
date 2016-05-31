@@ -1,8 +1,8 @@
 //
 //  AppDelegate.swift
-//  HTTPRequestFakeJSON
+//  FakeJSONProject
 //
-//  Created by Bereket Ghebremedhin on 5/26/16.
+//  Created by Bereket Ghebremedhin on 5/30/16.
 //  Copyright © 2016 Bereket Ghebremedhin. All rights reserved.
 //
 

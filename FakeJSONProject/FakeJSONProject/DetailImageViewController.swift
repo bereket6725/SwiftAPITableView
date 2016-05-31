@@ -1,22 +1,24 @@
 //
 //  DetailImageViewController.swift
-//  HTTPRequestFakeJSON
+//  FakeJSONProject
 //
-//  Created by Bereket Ghebremedhin on 5/27/16.
+//  Created by Bereket Ghebremedhin on 5/30/16.
 //  Copyright © 2016 Bereket Ghebremedhin. All rights reserved.
 //
 
 import UIKit
 
 class DetailImageViewController: UIViewController {
-
-    @IBOutlet weak var detailImage: UIImageView!
     
+    let detailLink =  String()
+    
+    @IBOutlet weak var detailImageView: UIImageView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
 
-           }
+        // Do any additional setup after loading the view.
+    }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()

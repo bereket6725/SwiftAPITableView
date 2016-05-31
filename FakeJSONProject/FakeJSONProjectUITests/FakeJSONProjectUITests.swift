@@ -1,14 +1,14 @@
 //
-//  HTTPRequestFakeJSONUITests.swift
-//  HTTPRequestFakeJSONUITests
+//  FakeJSONProjectUITests.swift
+//  FakeJSONProjectUITests
 //
-//  Created by Bereket Ghebremedhin on 5/26/16.
+//  Created by Bereket Ghebremedhin on 5/30/16.
 //  Copyright © 2016 Bereket Ghebremedhin. All rights reserved.
 //
 
 import XCTest
 
-class HTTPRequestFakeJSONUITests: XCTestCase {
+class FakeJSONProjectUITests: XCTestCase {
         
     override func setUp() {
         super.setUp()

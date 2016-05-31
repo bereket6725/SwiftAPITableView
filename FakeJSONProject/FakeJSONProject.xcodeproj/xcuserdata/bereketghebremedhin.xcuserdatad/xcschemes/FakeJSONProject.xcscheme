@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "E3B36DF21CF7A139005570EE"
-               BuildableName = "HTTPRequestFakeJSON.app"
-               BlueprintName = "HTTPRequestFakeJSON"
-               ReferencedContainer = "container:HTTPRequestFakeJSON.xcodeproj">
+               BlueprintIdentifier = "E35BF2201CFD052E00AC35BB"
+               BuildableName = "FakeJSONProject.app"
+               BlueprintName = "FakeJSONProject"
+               ReferencedContainer = "container:FakeJSONProject.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -32,30 +32,30 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "E3B36E061CF7A139005570EE"
-               BuildableName = "HTTPRequestFakeJSONTests.xctest"
-               BlueprintName = "HTTPRequestFakeJSONTests"
-               ReferencedContainer = "container:HTTPRequestFakeJSON.xcodeproj">
+               BlueprintIdentifier = "E35BF2341CFD052E00AC35BB"
+               BuildableName = "FakeJSONProjectTests.xctest"
+               BlueprintName = "FakeJSONProjectTests"
+               ReferencedContainer = "container:FakeJSONProject.xcodeproj">
             </BuildableReference>
          </TestableReference>
          <TestableReference
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "E3B36E111CF7A139005570EE"
-               BuildableName = "HTTPRequestFakeJSONUITests.xctest"
-               BlueprintName = "HTTPRequestFakeJSONUITests"
-               ReferencedContainer = "container:HTTPRequestFakeJSON.xcodeproj">
+               BlueprintIdentifier = "E35BF23F1CFD052E00AC35BB"
+               BuildableName = "FakeJSONProjectUITests.xctest"
+               BlueprintName = "FakeJSONProjectUITests"
+               ReferencedContainer = "container:FakeJSONProject.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "E3B36DF21CF7A139005570EE"
-            BuildableName = "HTTPRequestFakeJSON.app"
-            BlueprintName = "HTTPRequestFakeJSON"
-            ReferencedContainer = "container:HTTPRequestFakeJSON.xcodeproj">
+            BlueprintIdentifier = "E35BF2201CFD052E00AC35BB"
+            BuildableName = "FakeJSONProject.app"
+            BlueprintName = "FakeJSONProject"
+            ReferencedContainer = "container:FakeJSONProject.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -75,10 +75,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "E3B36DF21CF7A139005570EE"
-            BuildableName = "HTTPRequestFakeJSON.app"
-            BlueprintName = "HTTPRequestFakeJSON"
-            ReferencedContainer = "container:HTTPRequestFakeJSON.xcodeproj">
+            BlueprintIdentifier = "E35BF2201CFD052E00AC35BB"
+            BuildableName = "FakeJSONProject.app"
+            BlueprintName = "FakeJSONProject"
+            ReferencedContainer = "container:FakeJSONProject.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -94,10 +94,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "E3B36DF21CF7A139005570EE"
-            BuildableName = "HTTPRequestFakeJSON.app"
-            BlueprintName = "HTTPRequestFakeJSON"
-            ReferencedContainer = "container:HTTPRequestFakeJSON.xcodeproj">
+            BlueprintIdentifier = "E35BF2201CFD052E00AC35BB"
+            BuildableName = "FakeJSONProject.app"
+            BlueprintName = "FakeJSONProject"
+            ReferencedContainer = "container:FakeJSONProject.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
